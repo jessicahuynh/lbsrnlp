@@ -3,5 +3,7 @@ import sys
 f = open(sys.argv[1])
 for line in f.readlines():
  	t = line.split()
-	if len(t) > 2 and (t[2].startswith("(NN") or t[2].startswith("NN")):
-		print "\t".join(t)
+	for i in range(len(t)):
+		if len(t) > 2 and (t[i].startswith("(NN") or t[i].startswith("NN")) and not t[i].startswith("(NNP"):
+			print "\t".join(t)
+			print t[i+1].strip("))")
