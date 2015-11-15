@@ -1,8 +1,11 @@
 import os
 import glob
+from nltk.stem import WordNetLemmatizer
+from operator import itemgetter
 
 d = {}
 sentences = []
+wnl = WordNetLemmatizer()
 
 path = 'MASC-3.0.0/original-annotations/Penn_Treebank/'
 listing = os.listdir(path)
@@ -37,13 +40,12 @@ for filename in listing:
 				sentence_nouns.append(noun)
 				if noun not in d:
 					d[noun] = {}
-				
-		#print sentence_nouns
 		
 		for j in range(len(t)):
 			# verb stuff here
 			if len(t) > 2 and (t[j].startswith("(VB")):
 				verb = t[j+1].strip(")").lower()
+				verb = wnl.lemmatize(verb,'v')
 			
 				for n in sentence_nouns:
 					counts = d[n]
@@ -53,11 +55,19 @@ for filename in listing:
 						counts[verb] = 1
 					d[n] = counts
 					
-	print "finished " + filename + "!"
+	print ("finished " + filename + "!")
+
+for noun in d:
+	temp = []
+	for key, value in sorted(d[noun].items(),key=itemgetter(1),reverse=True):
+		temp.append((key,value))
+	d[noun] = temp
 
 output = open("collocations.txt","w")
+
 for noun in d:
-	output.write(' '.join((noun, ' ', str(d[noun]), '\n')))
+	if len(d[noun]) > 0:
+		output.write(' '.join((noun, ' ', str(d[noun]), '\n')))
 output.close()
 
-print "done!"
+print ("done!")
