@@ -1,0 +1,117 @@
+grasp
+[('The', 'DT'), ('object', 'JJ'), ('changes', 'VBZ'), ('its', 'PRP$'), ('orientation', 'NN'), ('to', 'TO'), ('be', 'VB'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('Y-axis', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('touches', 'VBZ'), ('the', 'DT'), ('side', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('changing', 'VBG'), ('its', 'PRP$'), ('orientation', 'NN'), ('to', 'TO'), ('be', 'VB'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('Y-axis', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('objec', 'NN'), ('and', 'CC'), ('touching', 'VBG'), ('the', 'DT'), ('side', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('changed', 'VBD'), ('its', 'PRP$'), ('orientation', 'NN'), ('to', 'TO'), ('be', 'VB'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('Y-axis', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('touched', 'VBD'), ('the', 'DT'), ('side', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+
+hold
+[('The', 'DT'), ('object', 'JJ'), ('changes', 'VBZ'), ('its', 'PRP$'), ('orientation', 'NN'), ('to', 'TO'), ('be', 'VB'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('X-axis', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('touches', 'VBZ'), ('the', 'DT'), ('bottom', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('changing', 'VBG'), ('its', 'PRP$'), ('orientation', 'NN'), ('to', 'TO'), ('be', 'VB'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('X-axis', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('touching', 'VBG'), ('the', 'DT'), ('bottom', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('changed', 'VBD'), ('its', 'PRP$'), ('orientation', 'NN'), ('to', 'TO'), ('be', 'VB'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('X-axis', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('touched', 'VBD'), ('the', 'DT'), ('bottom', 'NN'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+
+touch
+[('The', 'DT'), ('object', 'JJ'), ('changes', 'VBZ'), ('its', 'PRP$'), ('position', 'NN'), ('or', 'CC'), ('rotation', 'NN'), ('such', 'JJ'), ('that', 'IN'), ('some', 'DT'), ('of', 'IN'), ('its', 'PRP$'), ('boundaries', 'NNS'), ('are', 'VBP'), ('identical', 'JJ'), ('with', 'IN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('changing', 'VBG'), ('its', 'PRP$'), ('position', 'NN'), ('or', 'CC'), ('rotation', 'NN'), ('such', 'JJ'), ('that', 'IN'), ('some', 'DT'), ('of', 'IN'), ('its', 'PRP$'), ('boundaries', 'NNS'), ('are', 'VBP'), ('identical', 'JJ'), ('with', 'IN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('changed', 'VBD'), ('its', 'PRP$'), ('position', 'NN'), ('or', 'CC'), ('rotation', 'NN'), ('such', 'JJ'), ('that', 'IN'), ('some', 'DT'), ('of', 'IN'), ('its', 'PRP$'), ('boundaries', 'NNS'), ('were', 'VBD'), ('identical', 'JJ'), ('with', 'IN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+
+move translocate
+[('The', 'DT'), ('object', 'JJ'), ('changes', 'VBZ'), ('its', 'PRP$'), ('position', 'NN'), ('along', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('axis', 'NN'), ('from', 'IN'), ('one', 'CD'), ('location', 'NN'), ('to', 'TO'), ('another', 'DT'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('changing', 'VBG'), ('its', 'PRP$'), ('position', 'NN'), ('along', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('axis', 'NN'), ('from', 'IN'), ('one', 'CD'), ('location', 'NN'), ('to', 'TO'), ('another', 'DT'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('changed', 'VBD'), ('its', 'PRP$'), ('position', 'NN'), ('along', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('axis', 'NN'), ('from', 'IN'), ('one', 'CD'), ('location', 'NN'), ('to', 'TO'), ('another', 'DT'), ('?', '.')]
+
+move rotate
+[('The', 'DT'), ('object', 'NN'), ('remains', 'VBZ'), ('in', 'IN'), ('its', 'PRP$'), ('position', 'NN'), ('and', 'CC'), ('changes', 'VBZ'), ('its', 'PRP$'), ('orientation', 'NN'), ('about', 'IN'), ('its', 'PRP$'), ('Y-axis', 'NNP'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('remaining', 'VBG'), ('in', 'IN'), ('its', 'PRP$'), ('position', 'NN'), ('and', 'CC'), ('changing', 'VBG'), ('its', 'PRP$'), ('orientation', 'NN'), ('about', 'IN'), ('its', 'PRP$'), ('Y-axis', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('remained', 'VBD'), ('in', 'IN'), ('its', 'PRP$'), ('position', 'NN'), ('and', 'CC'), ('changed', 'VBD'), ('its', 'PRP$'), ('orientation', 'NN'), ('about', 'IN'), ('its', 'PRP$'), ('Y-axis', 'NN'), ('?', '.')]
+
+roll
+[('The', 'DT'), ('object', 'NN'), ('continually', 'RB'), ('rotates', 'VBZ'), ('about', 'IN'), ('its', 'PRP$'), ('X-axis', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('changes', 'VBZ'), ('its', 'PRP$'), ('position', 'NN'), ('along', 'IN'), ('the', 'DT'), ('negative', 'JJ'), ('Z-axis', 'NNP'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('continually', 'RB'), ('rotating', 'VBG'), ('about', 'IN'), ('its', 'PRP$'), ('X-axis', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('changing', 'VBG'), ('its', 'PRP$'), ('position', 'NN'), ('along', 'IN'), ('the', 'DT'), ('negative', 'JJ'), ('Z-axis', 'NNP'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('continually', 'RB'), ('rotated', 'VBD'), ('about', 'IN'), ('its', 'PRP$'), ('X-axis', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('changed', 'VBD'), ('its', 'PRP$'), ('position', 'NN'), ('along', 'IN'), ('the', 'DT'), ('negative', 'JJ'), ('Z-axis', 'NNP'), ('?', '.')]
+
+spin
+[('The', 'DT'), ('object', 'NN'), ('continually', 'RB'), ('touches', 'VBZ'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('rotates', 'VBZ'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('about', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('Y-axis', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('continually', 'RB'), ('touching', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('rotating', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('about', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('Y-axis', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('continually', 'RB'), ('touched', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('rotated', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('about', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('Y-axis', 'NN'), ('?', '.')]
+
+[('The', 'DT'), ('object', 'NN'), ('continually', 'RB'), ('changes', 'VBZ'), ('its', 'PRP$'), ('orientation', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('rotates', 'VBZ'), ('about', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('axis', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('continually', 'RB'), ('changing', 'VBG'), ('its', 'PRP$'), ('orientation', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('rotating', 'VBG'), ('about', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('axis', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('continually', 'RB'), ('changed', 'VBD'), ('its', 'PRP$'), ('orientation', 'NN'), ('and', 'CC'), ('continually', 'RB'), ('rotated', 'VBN'), ('about', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('axis', 'NN'), ('?', '.')]
+
+stack
+[('The', 'DT'), ('object', 'NN'), ('puts', 'VBZ'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('putting', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('put', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('?', '.')]
+
+put
+[('The', 'DT'), ('object', 'NN'), ('grasps', 'VBP'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('changes', 'NNS'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('position', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('grasping', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('changing', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('position', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('grasped', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('changed', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('position', 'NN'), ('?', '.')]
+
+lean (on/against)
+[('The', 'DT'), ('object', 'NN'), ('puts', 'VBZ'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('such', 'JJ'), ('that', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('Y-axis', 'NN'), ('is', 'VBZ'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('Y-axis', 'NNP'), ('of', 'IN'), ('a', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('before', 'IN'), ('rotating', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('about', 'IN'), ('its', 'PRP$'), ('Z-axis', 'NNP'), ('until', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'JJ'), ('touches', 'VBZ'), ('the', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('putting', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('such', 'JJ'), ('that', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('Y-axis', 'NN'), ('is', 'VBZ'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('Y-axis', 'NNP'), ('of', 'IN'), ('a', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('before', 'IN'), ('rotating', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('about', 'IN'), ('its', 'PRP$'), ('Z-axis', 'NNP'), ('until', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('is', 'VBZ'), ('touching', 'VBG'), ('the', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('put', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('such', 'JJ'), ('that', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('Y-axis', 'NN'), ('is', 'VBZ'), ('parallel', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('Y-axis', 'NNP'), ('of', 'IN'), ('a', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('before', 'IN'), ('rotating', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('about', 'IN'), ('its', 'PRP$'), ('Z-axis', 'NNP'), ('until', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('touched', 'VBD'), ('the', 'DT'), ('group', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('objects', 'NNS'), ('?', '.')]
+
+[('The', 'DT'), ('object', 'JJ'), ('touches', 'NNS'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('while', 'IN'), ('the', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('rotated', 'VBN'), ('about', 'IN'), ('its', 'PRP$'), ('Z-axis', 'NNP'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('touching', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('while', 'IN'), ('the', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('rotated', 'VBN'), ('about', 'IN'), ('its', 'PRP$'), ('Z-axis', 'NNP'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('touched', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('while', 'IN'), ('the', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('rotated', 'VBN'), ('about', 'IN'), ('its', 'PRP$'), ('Z-axis', 'NNP'), ('?', '.')]
+
+pivoted object rotation (flip on edge)
+[('The', 'DT'), ('object', 'NN'), ('rotates', 'VBZ'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('one', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('edges', 'NNS'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('rotating', 'VBG'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('one', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('edges', 'NNS'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('rotated', 'VBD'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('one', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('edges', 'NNS'), ('?', '.')]
+
+flip at center
+[('The', 'DT'), ('object', 'NN'), ('rotates', 'VBZ'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('X-axis', 'JJ'), (',', ','), ('Y-axis', 'JJ'), (',', ','), ('or', 'CC'), ('Z-axis', 'NNP'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('rotating', 'VBG'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('X-axis', 'JJ'), (',', ','), ('Y-axis', 'JJ'), (',', ','), ('or', 'CC'), ('Z-axis', 'NNP'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('rotated', 'VBD'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('X-axis', 'JJ'), (',', ','), ('Y-axis', 'JJ'), (',', ','), ('or', 'CC'), ('Z-axis', 'NNP'), ('?', '.')]
+
+close
+[('The', 'DT'), ('object', 'NN'), ('holds', 'VBZ'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), (',', ','), ('rotates', 'VBZ'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('Z-axis', 'NNP'), (',', ','), ('and', 'CC'), ('puts', 'VBZ'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('object', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('holding', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), (',', ','), ('rotating', 'VBG'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('Z-axis', 'NNP'), (',', ','), ('and', 'CC'), ('putting', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('object', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('held', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), (',', ','), ('rotated', 'VBD'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('Z-axis', 'NNP'), (',', ','), ('and', 'CC'), ('put', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('object', 'NN'), ('?', '.')]
+
+open
+[('The', 'DT'), ('object', 'NN'), ('grasps', 'VBP'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('located', 'VBN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('rotates', 'VBZ'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('Z-axis', 'NNP'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('grasping', 'VBG'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('located', 'VBN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('rotating', 'VBG'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('Z-axis', 'NNP'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('grasped', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('located', 'VBN'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('object', 'NN'), ('and', 'CC'), ('rotated', 'VBD'), ('180', 'CD'), ('degrees', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('Z-axis', 'NNP'), ('?', '.')]
+
+touching
+[('The', 'DT'), ('object', 'NN'), ("'s", 'POS'), ('boundaries', 'NNS'), ('are', 'VBP'), ('identical', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('position', 'NN'), ('of', 'IN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('boundaries', 'NNS'), ('.', '.')]
+[('Are', 'VBP'), ('the', 'DT'), ('object', 'NN'), ("'s", 'POS'), ('boundaries', 'NNS'), ('identical', 'VBP'), ('to', 'TO'), ('the', 'DT'), ('position', 'NN'), ('of', 'IN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('boundaries', 'NNS'), ('?', '.')]
+[('Have', 'VBP'), ('the', 'DT'), ('object', 'NN'), ("'s", 'POS'), ('boundaries', 'NNS'), ('been', 'VBN'), ('identical', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('position', 'NN'), ('of', 'IN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('boundaries', 'NNS'), ('?', '.')]
+
+in
+[('The', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('located', 'VBN'), ('entirely', 'RB'), ('within', 'IN'), ('the', 'DT'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('located', 'VBN'), ('entirely', 'RB'), ('within', 'IN'), ('the', 'DT'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('been', 'VBN'), ('located', 'VBN'), ('entirely', 'RB'), ('within', 'IN'), ('the', 'DT'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+
+on
+[('The', 'DT'), ('object', 'JJ'), ('touches', 'VBZ'), ('the', 'DT'), ('top', 'JJ'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('Y-axis', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('touching', 'VBG'), ('the', 'DT'), ('top', 'JJ'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('Y-axis', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('touched', 'VBD'), ('the', 'DT'), ('top', 'JJ'), ('boundaries', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('Y-axis', 'NN'), ('?', '.')]
+
+behind
+[('The', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('Z-axis', 'NNP'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('Z-axis', 'NNP'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('been', 'VBN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('Z-axis', 'NNP'), ('?', '.')]
+
+in front of
+[('The', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('negative', 'JJ'), ('Z-axis', 'NNP'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('negative', 'JJ'), ('Z-axis', 'NNP'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('been', 'VBN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('negative', 'JJ'), ('Z-axis', 'NNP'), ('?', '.')]
+
+near
+[('The', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('located', 'VBN'), ('such', 'JJ'), ('that', 'IN'), ('if', 'IN'), ('the', 'DT'), ('object', 'NN'), ('was', 'VBD'), ('scaled', 'VBN'), ('twice', 'RB'), ('along', 'RB'), ('each', 'DT'), ('axis', 'NN'), (',', ','), ('it', 'PRP'), ('would', 'MD'), ('touch', 'VB'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'JJ'), ('located', 'VBN'), ('such', 'PDT'), ('that', 'IN'), ('if', 'IN'), ('the', 'DT'), ('object', 'NN'), ('was', 'VBD'), ('scaled', 'VBN'), ('twice', 'RB'), ('along', 'RB'), ('each', 'DT'), ('axis', 'NN'), (',', ','), ('it', 'PRP'), ('would', 'MD'), ('touch', 'VB'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('been', 'VBN'), ('located', 'VBN'), ('such', 'JJ'), ('that', 'IN'), ('if', 'IN'), ('the', 'DT'), ('object', 'NN'), ('had', 'VBD'), ('been', 'VBN'), ('scaled', 'VBN'), ('twice', 'RB'), ('along', 'RB'), ('each', 'DT'), ('axis', 'NN'), (',', ','), ('it', 'PRP'), ('would', 'MD'), ('have', 'VB'), ('touched', 'VBN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('?', '.')]
+
+left of
+[('The', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('negative', 'JJ'), ('X-axis', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('negative', 'JJ'), ('X-axis', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('been', 'VBN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('negative', 'JJ'), ('X-axis', 'NN'), ('?', '.')]
+
+right of
+[('The', 'DT'), ('object', 'NN'), ('is', 'VBZ'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('X-axis', 'NN'), ('.', '.')]
+[('Is', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('X-axis', 'NN'), ('?', '.')]
+[('Has', 'VBZ'), ('the', 'DT'), ('object', 'NN'), ('been', 'VBN'), ('near', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ('along', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('object', 'NN'), ("'s", 'POS'), ('positive', 'JJ'), ('X-axis', 'NN'), ('?', '.')]

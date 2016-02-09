@@ -1,5 +1,9 @@
 In general, if another object must be involved, that object is called ''the other object.'' A ''group of other objects'' and ''a different object'' also appear.
 
+# Process
+- I wrote the definitions under the appropriate verb as header in `definitions.txt` for readability.
+- POS tagging was done with `pos_tag_definitions.py`
+
 # Referential definitions
 - GRASP and HOLD are defined in terms of TOUCH.
 - I've defined ROLL in terms of MOVE ROTATE.
@@ -18,7 +22,6 @@ In general, if another object must be involved, that object is called ''the othe
 - The first definition for SPIN is transitive while the second is intransitive.
 - The first definition for LEAN is the causative while the second is intransitive.
 - For CLOSE I gave only the definition that has the opposite meaning of OPEN, because it seems that CLOSE that has a similar meaning to NEAR could be subsumed under NEAR instead.
-
 
 # Resources
 - Wiktionary
