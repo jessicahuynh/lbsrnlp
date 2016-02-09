@@ -1,0 +1,117 @@
+grasp
+- The object changes its orientation to be parallel with the Y-axis of the other object and touches the side of the other object.
+- Is the object changing its orientation to be parallel with the Y-axis of the other objec and touching the side of the other object?
+- Has the object changed its orientation to be parallel with the Y-axis of the other object and touched the side of the other object?
+
+hold
+- The object changes its orientation to be parallel with the X-axis of the other object and touches the bottom of the other object.
+- Is the object changing its orientation to be parallel with the X-axis of the other object and touching the bottom of the other object?
+- Has the object changed its orientation to be parallel with the X-axis of the other object and touched the bottom of the other object?
+
+touch
+- The object changes its position or rotation such that some of its boundaries are identical with some of the boundaries of the other object.
+- Is the object changing its position or rotation such that some of its boundaries are identical with some of the boundaries of the other object?
+- Has the object changed its position or rotation such that some of its boundaries were identical with some of the boundaries of the other object?
+
+move translocate
+- The object changes its position along a single axis from one location to another.
+- Is the object changing its position along a single axis from one location to another?
+- Has the object changed its position along a single axis from one location to another?
+
+move rotate
+- The object remains in its position and changes its orientation about its Y-axis.
+- Is the object remaining in its position and changing its orientation about its Y-axis?
+- Has the object remained in its position and changed its orientation about its Y-axis?
+
+roll
+- The object continually rotates about its X-axis and continually changes its position along the negative Z-axis.
+- Is the object continually rotating about its X-axis and continually changing its position along the negative Z-axis?
+- Has the object continually rotated about its X-axis and continually changed its position along the negative Z-axis?
+
+spin
+- The object continually touches the other object and continually rotates the other object about the other object's Y-axis.
+- Is the object continually touching the other object and continually rotating the other object about the other object's Y-axis?
+- Has the object continually touched the other object and continually rotated the other object about the other object's Y-axis?
+
+- The object continually changes its orientation and continually rotates about a single axis.
+- Is the object continually changing its orientation and continually rotating about a single axis?
+- Has the object continually changed its orientation and continually rotated about a single axis?
+
+stack
+- The object puts the other object on top of a group of other objects.
+- Is the object putting the other object on top of a group of other objects?
+- Has the object  put the other object on top of a group of other objects?
+
+put
+- The object grasps the other object and changes the other object's position.
+- Is the object grasping the other object and changing the other object's position?
+- Has the object grasped the other object and changed the other object's position?
+
+lean (on/against)
+- The object puts the other object such that the other object's Y-axis is parallel with the Y-axis of a group of other objects before rotating the other object about its Z-axis until the other object touches the group of other objects.
+- Is the object putting the other object such that the other object's Y-axis is parallel with the Y-axis of a group of other objects before rotating the other object about its Z-axis until the other object is touching the group of other objects?
+- Has the object put the other object such that the other object's Y-axis is parallel with the Y-axis of a group of other objects before rotating the other object about its Z-axis until the other object touched the group of other objects?
+
+- The object touches the other object while the object is rotated about its Z-axis.
+- Is the object touching the other object while the object is rotated about its Z-axis?
+- Has the object touched the other object while the object is rotated about its Z-axis?
+
+pivoted object rotation (flip on edge)
+- The object rotates 180 degrees about one of its edges.
+- Is the object rotating 180 degrees about one of its edges?
+- Has the object rotated 180 degrees about one of its edges?
+
+flip at center
+- The object rotates 180 degrees about one of the X-axis, Y-axis, or Z-axis.
+- Is the object rotating 180 degrees about one of the X-axis, Y-axis, or Z-axis?
+- Has the object rotated 180 degrees about one of the X-axis, Y-axis, or Z-axis?
+
+close
+- The object holds the other object, rotates 180 degrees about the Z-axis, and puts the other object on top of a different object.
+- Is the object holding the other object, rotating 180 degrees about the Z-axis, and putting the other object on top of a different object?
+- Has the object held the other object, rotated 180 degrees about the Z-axis, and put the other object on top of a different object?
+
+open
+- The object grasps the other object that is located on top of a different object and rotates 180 degrees about the Z-axis.
+- Is the object grasping the other object that is located on top of a different object and rotating 180 degrees about the Z-axis?
+- Has the object grasped the other object that is located on top of a different object and rotated 180 degrees about the Z-axis?
+
+touching
+- The object's boundaries are identical to the position of some of the other object's boundaries.
+- Are the object's boundaries identical to the position of some of the other object's boundaries?
+- Have the object's boundaries been identical to the position of some of the other object's boundaries?
+
+in
+- The object is located entirely within the boundaries of the other object.
+- Is the object located entirely within the boundaries of the other object?
+- Has the object been located entirely within the boundaries of the other object?
+
+on
+- The object touches the top boundaries of the other object along the other object's positive Y-axis.
+- Is the object touching the top boundaries of the other object along the other object's positive Y-axis?
+- Has the object touched the top boundaries of the other object along the other object's positive Y-axis?
+
+behind
+- The object is near the other object along the other object's positive Z-axis.
+- Is the object near the other object along the other object's positive Z-axis?
+- Has the object been near the other object along the other object's positive Z-axis?
+
+in front of
+- The object is near the other object along the other object's negative Z-axis.
+- Is the object near the other object along the other object's negative Z-axis?
+- Has the object been near the other object along the other object's negative Z-axis?
+
+near
+- The object is located such that if the object was scaled twice along each axis, it would touch the other object.
+- Is the object located such that if the object was scaled twice along each axis, it would touch the other object?
+- Has the object been located such that if the object had been scaled twice along each axis, it would have touched the other object?
+
+left of
+- The object is near the other object along the other object's negative X-axis.
+- Is the object near the other object along the other object's negative X-axis?
+- Has the object been near the other object along the other object's negative X-axis?
+
+right of
+- The object is near the other object along the other object's positive X-axis.
+- Is the object near the other object along the other object's positive X-axis?
+- Has the object been near the other object along the other object's positive X-axis?
