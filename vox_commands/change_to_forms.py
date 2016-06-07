@@ -11,6 +11,7 @@ objects = [x.strip() for x in objects]
 relations = list(open('relations.txt'))
 relations = [x.strip() for x in relations]
 relations.append('against')
+relations.append('at')
 
 with open('sentences.txt') as f:
 	for sentence in f:
@@ -29,6 +30,10 @@ with open('sentences.txt') as f:
 				form = form + s[i]
 			elif s[i] == 'paper' and s[i+1] == 'sheet':
 				form = form + 'paper_sheet'
+			elif s[i] == 'edge':
+				form = form + 'edge'
+			elif s[i] == 'center':
+				form = form + 'center'
 
 		form = form + ')'
 		if ',' in form:
