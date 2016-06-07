@@ -1,8 +1,8 @@
 grasp
 hold 
 touch
-move translocate
-move rotate
+move
+turn
 roll
 spin
 stack
@@ -13,11 +13,3 @@ flip on edge
 flip at center
 close
 open
-touching
-in
-on
-behind
-in front of
-near
-left of
-right of
