@@ -1,0 +1,23 @@
+grasp
+hold 
+touch
+move translocate
+move rotate
+roll
+spin
+stack
+put
+lean on
+lean against
+flip on edge
+flip at center
+close
+open
+touching
+in
+on
+behind
+in front of
+near
+left of
+right of
