@@ -1,4 +1,4 @@
-import sys
+import sys, argparse
 
 def parse_sent(s):
 	form = s[0] + '('
@@ -25,26 +25,55 @@ def parse_sent(s):
 		form = form + ')'
 	return form
 
-events = list(open('events.txt'))
-events = [x.strip() for x in events]
+if __name__ == '__main__':
+	# command line arguments
+	parser = argparse.ArgumentParser(description='Creates functional forms from sentences (either POS tagged or not)',epilog='No arguments will attempt to transform a sentences.txt file that has no POS tagging')
 
-objects = list(open('objects.txt'))
-objects = [x.strip() for x in objects]
+	parser.add_argument('sentence', nargs='?', help='transform a single sentence',default=None)
+	parser.add_argument('-p','--pos', help='take into account POS tags', action='store_true')
+	parser.add_argument('-i', '--input', help='specify input file', nargs='?', type=str, default=None)
 
-relations = list(open('relations.txt'))
-relations = [x.strip() for x in relations]
-relations.append('against')
-relations.append('at')
+	args = vars(parser.parse_args())
+	print(args)
+	
+	# get events, objects, relations
+	events = list(open('events.txt'))
+	events = [x.strip() for x in events]
 
-if len(sys.argv) == 2:
-	print(parse_sent(sys.argv[1].split()))
-else:
-	forms = open('functional_forms.txt','w')
+	objects = list(open('objects.txt'))
+	objects = [x.strip() for x in objects]
 
-	with open('sentences.txt') as f:
-		for sentence in f:
-			s = sentence.split()
-			
-			print(parse_sent(s),file=forms)
+	relations = list(open('relations.txt'))
+	relations = [x.strip() for x in relations]
+	relations.append('against')
+	relations.append('at')
 
-	forms.close()
+	# handle the arguments
+	if not args['pos']:
+		if args['sentence']:
+			# no pos tags, one sentence
+			print(parse_sent(args['sentence'].split()))
+		else:
+			# no pos tags, all of a file
+			forms = open('functional_forms.txt','w')
+
+			if not args['input']:
+				args['input'] = 'sentences.txt'
+
+			with open(args['input']) as f:
+				for sentence in f:
+					s = sentence.split()
+					
+					print(parse_sent(s),file=forms)
+
+			forms.close()
+	elif args['pos']:
+		if args['sentence']:
+			# pos tags, one sentence
+			print('pos the one sentence')
+		elif args['input']:
+			# pos tags, given input file
+			print('pos ' + args['input'])
+		else:
+			# pos tags, sentences.txt
+			print('pos sentences.txt')
