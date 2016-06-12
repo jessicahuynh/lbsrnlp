@@ -65,7 +65,7 @@ if __name__ == '__main__':
 	parser.add_argument('sentence', nargs='?', help='transform a single sentence',default=None)
 	parser.add_argument('-p','--pos', help='take into account POS tags', action='store_true')
 	parser.add_argument('-i', '--input', help='specify input file', nargs='?', type=str, default=None)
-	parser.add_argument('-o', '--output', help='specify output file', nargs='?', type=str, default='functional_forms.txt')
+	parser.add_argument('-o', '--output', help='specify output file', nargs='?', type=str, default=None)
 
 	args = vars(parser.parse_args())
 	print(args)
@@ -89,12 +89,16 @@ if __name__ == '__main__':
 			print(parse_sent(args['sentence'].split()))
 		else:
 			# no pos tags, all of a file
-			forms = open(args['output'],'w')
 
 			if not args['input']:
 				print('No input file given, transforming sentences.txt')
 				args['input'] = 'sentences.txt'
+			if not args['output']:
+				print('No output file given, writing into output.txt')
+				args['output'] = 'output.txt'
 
+			forms = open(args['output'],'w')
+			
 			with open(args['input']) as f:
 				for sentence in f:
 					s = sentence.split()
@@ -108,11 +112,15 @@ if __name__ == '__main__':
 			print(parse_pos(ast.literal_eval(args['sentence'])))
 		else:
 			# pos tags, all of a file
-			forms = open(args['output'],'w')
 
 			if not args['input']:
 				print('No input file given, transforming tagged.txt')
 				args['input'] = 'tagged.txt'
+			if not args['output']:
+				print('No output file given, writing into output.txt')
+				args['output'] = 'output.txt'
+
+			forms = open(args['output'],'w')
 
 			with open(args['input']) as f:
 				for sentence in f:
